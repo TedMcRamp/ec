@@ -3,22 +3,26 @@ A Simple File Encryptor/Decryptor
 
 This has been made for educational reasons only, any constructive criticism/advice/comments are welcome!
 
-# Usage:
-usage: ec.py [-h] [-e] [-d] -k KEY [-f FILE_OP] [-o OUTPUT] [action] [file]
+# Usage: ec.py [-h] [-e] [-d] -k KEY [-f FILE_OP] [-o OUTPUT] [action] [file]
 
-File Encrypter/Decryptor
+# Positional arguments:
+   __action:                Action: either Encryption or Decryption, if the key is not specified the program will generate
+                        a random key and print it out.__
+                        <br>
+                        <br>
+   __file:                  Encrypted/decrypted file input__
 
-positional arguments:
-  action                Action: either Encryption or Decryption, if the key is not specified the program will generate
-                        a random key and print it out.
-  file                  Encrypted/decrypted filetest input
-
-options:
+# Options:
   -h, --help            show this help message and exit
+  <br>
   -e                    Alias for encrypt.
+  <br>
   -d                    Alias for decrypt.
+  <br>
   -k KEY, --key KEY     Encryption/decryption key
+  <br>
   -f FILE_OP, --file FILE_OP
                         Encrypted/decrypted file.
+                        <br>
   -o OUTPUT, --output OUTPUT
                         Encrypted/decrypted output (default is stdout if no output is specified).
