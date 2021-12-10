@@ -2,6 +2,7 @@
 A Simple File Encryptor/Decryptor
 
 This has been made for educational reasons only, any constructive criticism/advice/comments are welcome!
+Also, please report any issues you see in this project!
 
 # Usage: 
  ec.py [-h] [-e] [-d] -k KEY [-f FILE_OP] [-o OUTPUT] [action] [file]
