@@ -3,7 +3,8 @@ A Simple File Encryptor/Decryptor
 
 This has been made for educational reasons only, any constructive criticism/advice/comments are welcome!
 
-# Usage: ec.py [-h] [-e] [-d] -k KEY [-f FILE_OP] [-o OUTPUT] [action] [file]
+# Usage: 
+ ec.py [-h] [-e] [-d] -k KEY [-f FILE_OP] [-o OUTPUT] [action] [file]
 
 # Positional arguments:
    __action:                Action: either Encryption or Decryption, if the key is not specified the program will generate
